@@ -15,7 +15,7 @@
 
   <main class="container">
     <section class="intro card">
-      <img src="/images/profile.jpg" alt="Your headshot" class="avatar" />
+      <img src="./images/profile.jpg" alt="Your headshot" class="avatar" />
       <div>
         <h2>Career Goals</h2>
         <p>
