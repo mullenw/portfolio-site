@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wyatt Mullen | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Portfolio site for Wyatt Mullen — finance, analytics, and early-career projects." />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Wyatt Mullen</h1>
+    <p class="tagline">Finance Major | Minor (Business Analytics)</p>
+  </header>
+
+  <main class="container">
+    <section class="intro card">
+      <img src="/images/profile.jpg" alt="Your headshot" class="avatar" />
+      <div>
+        <h2>Career Goals</h2>
+        <p>
+          I’m focused on <strong>Graduating from USF with my bachelor of Finance.</strong>
+          I want to start working for a known financial institution.
+          I want to build my skills and grow in the financial world.
+          With these skills I will become a financial advisor and help others reach 
+          their financial goals.
+        </p>
+      </div>
+    </section>
+
+    <section class="links card">
+      <h2>Connect</h2>
+      <ul>
+        <li><a href="https://github.com/mullenw" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/wjmullen" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:mullenw@usf.edu">Email</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Wyatt Mullen</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
